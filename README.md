@@ -37,7 +37,7 @@ python3 generate_slogans.py --keywords 카드,혜택 --num_beams 3 --temperature
 <br>
 <img src="https://github.com/yeounyi/LexPOS/blob/main/assets/adj_graph.png" width=400>
 
-### Pretrained Models 
+### Pretrained Model
 https://drive.google.com/drive/folders/1opkhDApURnjibVYmmhj5bqLTWy4miNe4?usp=sharing
 
 ### References
