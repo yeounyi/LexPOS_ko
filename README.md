@@ -6,6 +6,7 @@ LexPOS is a sequence-to-sequence transformer model that <b> generates slogans wi
 
 ### Generating slogans with lexical, POS constraints 
 #### 1. Code 
+* Need to download pretrained Korean word2vec model from [here](https://github.com/Kyubyong/wordvectors) and put it below `phonetic_similarity/KoG2P`
 ```python3
 # clone this repo
 git clone https://github.com/yeounyi/LexPOS_ko
