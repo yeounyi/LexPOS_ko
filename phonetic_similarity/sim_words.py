@@ -333,8 +333,8 @@ ipa_tags = [['p0','ph','pp','t0','th','tt','k0','kh','kk','s0','ss','h0','c0','c
 'uu','oo','ye','yq','ya','yv','yu','yo','wi','wo','wq','we','wa','wv','xi']]
 multi = MultiLabelBinarizer()
 multi.fit(ipa_tags)
-model_name = '/home/yeoun/KO_BART/KoG2P/ko.bin'
-df = pd.read_csv('/home/yeoun/KO_BART/KoG2P/ipa_dict.csv')
+model_name = './KoG2P/ko.bin'
+df = pd.read_csv('./KoG2P/ipa_dict.csv')
 
 tokenizer = AutoTokenizer.from_pretrained("snunlp/KR-BERT-char16424")
 
